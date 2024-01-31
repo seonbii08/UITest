@@ -1,10 +1,16 @@
-import "./App.css";
-import Router from "./Router";
+import './App.css';
+import { BrowserView, MobileView } from 'react-device-detect'
 
-function App() {
+const App = () => {
   return (
-    <div className='App'>
-      <Router />
+    <div className="App">
+      <BrowserView>
+        
+      </BrowserView>
+      <MobileView>
+        모바일 브라우져!
+      </MobileView>
+      
     </div>
   );
 }
