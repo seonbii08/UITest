@@ -6,7 +6,6 @@ import Main from "./Components/page/Main";
 const Router = () => {
     return(
         <BrowserRouter>
-            <Header></Header>
             <Routes>
                 <Route path="/" element={<Main/>}></Route>
                 <Route path="/login" element={<Login/>}></Route>
