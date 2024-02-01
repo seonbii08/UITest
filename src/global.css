@@ -1,0 +1,5 @@
+*{margin: 0;padding: 0;box-sizing: border-box;}
+a{display: block; text-decoration: none; color: #333;}
+li, ul {list-style: none;}
+@import url('https://fonts.googleapis.com/css2?family=Black+Han+Sans&display=swap');
+body {font-family: 'Black Han Sans', sans-serif;}

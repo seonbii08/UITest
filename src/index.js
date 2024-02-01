@@ -1,12 +1,12 @@
 import React from 'react';
-import ReactDOM from 'react-dom';
-import App from './App';
-
-ReactDOM.render(
+import ReactDOM from 'react-dom/client';
+import './global.css'
+import Router from './router';
+const root = ReactDOM.createRoot(document.getElementById("root"));
+root.render(
   <React.StrictMode>
-    <App />
-  </React.StrictMode>,
-  document.getElementById('root')
+    <Router/>
+  </React.StrictMode>
 );
 
 // If you want to start measuring performance in your app, pass a function
